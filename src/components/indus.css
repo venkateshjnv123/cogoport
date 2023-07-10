@@ -1,0 +1,61 @@
+.indusContainer {
+  /* padding: 16px !important; */
+  margin-bottom: 50px;
+  background: #fffef3;
+  text-align: center;
+}
+
+.indusDiv {
+  flex-direction: column !important;
+  width: 100px !important;
+  margin: 10px !important;
+}
+
+.h1 .h2 .h3 .h4 .h5 .h6{
+  font-family: "Ubuntu",sans-serif;
+}
+
+.p {
+  font-family: "PT Sans",sans-serif;;
+}
+
+.indus {
+  background: #fffef3;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px;
+}
+
+.indusdDiv > h6 {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+@media (max-width: 767px) {
+  .indus {
+    width: 100% !important;
+  }
+
+  .indusCards {
+    justify-content: center !important;
+  }
+}
+
+.indusTitle {
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.indusCards {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+.indusPic {
+  width: 100px;
+  height: 100px;
+}

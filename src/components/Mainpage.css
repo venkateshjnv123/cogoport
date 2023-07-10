@@ -1,0 +1,77 @@
+.Mainpage2{
+    display: flex;
+    flex: 1 1;
+    margin-bottom: -39px;
+}
+
+.Mainpage3{
+    display: none;
+}
+
+.searchbox{
+    border-radius: 12px;
+    
+}
+.searchbox1{
+    background-color: #fff;
+}
+.selecttag{
+    border: none;
+}
+
+.searchboxbutton{
+    width: 90px;
+    padding: 2px 4px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    background: #36bb22;
+    border: 1px solid #36bb22;
+    border-radius: 12px;
+}
+.mainpageleft{
+    flex: 1 1;
+}
+
+@media (max-width: 991px) {
+    .Mainpage1{
+        width: 100%!important;
+        height: 552px!important;
+        flex-direction: column-reverse!important;
+    }
+
+
+
+    .mainpageleft{
+        width: 100%!important;
+    }
+
+    .Mainpage2{
+        display: none;
+    }
+    .Mainpage3{
+        display: flex;
+        flex: 1 1;
+        width: 100%!important;
+        margin-bottom: 0px!important;
+        background-color: #fddc01!important;
+       backface-visibility: hidden;
+    }
+
+ }
+
+ .h1 .h2 .h3 .h4 .h5 .h6{
+    font-family: "Ubuntu",sans-serif;
+  }
+  
+  .p {
+    font-family: "PT Sans",sans-serif;;
+  }
+  
+ .Mainpage1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1200px;
+    height:'392px',
+ }

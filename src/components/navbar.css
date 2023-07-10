@@ -1,0 +1,146 @@
+.navbarmain{
+    background-color: #fddc00;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    padding: 8px 16px;
+    color: #000;
+    font-weight: 500;   
+}
+
+.narbarmain .scrolled{
+background-color: #fff;
+}
+
+.h1 .h2 .h3 .h4 .h5 .h6{
+  font-family: "Ubuntu",sans-serif;
+}
+
+.p {
+  font-family: "PT Sans",sans-serif;;
+}
+
+.loginbtnsdiv{
+    display: flex;
+  align-items: center;
+    margin-right: auto;
+}
+
+.loginbtnsdiv1{
+    display: flex;
+  align-items: center;
+  
+    margin-right: auto;
+}
+
+.loginbuttons{
+    display: flex;
+    height: 100%;
+  align-items: center;
+    margin-right: auto;
+    margin-bottom: 0px;
+    font-family: var(--font-family-heading);
+    list-style-type: none;
+}
+.signupbtn{
+    color: #fff;
+    background-color: #ee3425;
+    border: 1px solid #ee3425;
+    min-width: 72px;
+    height: 36px;
+    padding: 4px 16px;
+    border-radius: 8px;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    margin-right: 16px;
+    justify-content: center;
+}
+
+.logoimage{
+    cursor: pointer;
+    margin-left: 60px;
+}
+
+.navbarmainsub{
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    display: flex;
+}
+
+.navbar-nav{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav-item{
+    margin-left: 20px;
+    border-radius: 4px;
+}
+
+.nav-btn{
+    margin-right: 16px;
+}
+
+.navbar-toggler{
+   position: absolute;
+ left: 0px;
+}
+
+@media only screen and (max-width: 991px) {
+   .loginbtnsdiv{
+    display: none;
+   }
+   .navbarmain{
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: start;
+
+   }
+}
+
+  .sidebar {
+    width: 100%;
+    background-color: #fbdc00;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    padding-top: 60px;
+  }
+  .sidebar .show-sidebar  {
+    display: block;
+  }
+
+  .sidebarul{
+    display: block;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+    list-style-type: none;
+  }
+
+  .sidebarlist{
+    padding: 16px;
+    overflow-y: scroll;
+    border-bottom: 0.5px solid rgba(0,0,0,.4);
+  }
+
+  .side-link{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+    text-align: left;
+    cursor: pointer;
+    background: none;
+    border: none;
+  }

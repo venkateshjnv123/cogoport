@@ -1,0 +1,33 @@
+@media (max-width: 767px) {
+  .foot2Container {
+    display: none;
+  }
+}
+
+.foot2colContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px 0;
+  background-color: #ebbe00;
+}
+
+.h1 .h2 .h3 .h4 .h5 .h6{
+  font-family: "Ubuntu",sans-serif;
+}
+
+.p {
+  font-family: "PT Sans",sans-serif;;
+}
+
+.foot2Col {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.foot2Col > a {
+  width: fit-content;
+  line-height: 2rem;
+  color: #000;
+  text-decoration: none;
+}

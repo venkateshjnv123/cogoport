@@ -1,0 +1,57 @@
+.readymain{
+    background: #fbdc00;
+    margin-bottom: 50px;
+}
+
+.readysub{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+    width: 1200px;
+}
+
+.headingreadydiv{
+    padding: 25px 0;
+}
+
+.headingready{
+    margin-bottom: 10px;
+    font-size: 28px;
+    line-height: 1.2;
+}
+
+.readylink{
+    text-decoration: none;
+    color: #ee3425;
+}
+
+.readybutton{
+    border: 1px solid #ee3425;
+    color: #fff!important;
+    background: #ee3425;
+    border-radius: 4px;
+    outline: none;
+    transition: color .1s linear,background-color .1s linear,border-color .1s linear;
+    will-change: color,background-color,border-color;
+}
+
+
+@media only screen and (max-width: 991px) {
+   .readysub{
+    width: 100%;
+    flex-direction: column;
+    align-items: start;
+   }
+    }
+
+    .h1 .h2 .h3 .h4 .h5 .h6{
+        font-family: "Ubuntu",sans-serif;
+      }
+      
+      .p {
+        font-family: "PT Sans",sans-serif;;
+      }

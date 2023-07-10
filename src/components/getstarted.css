@@ -1,0 +1,80 @@
+.getstarthead{
+    margin-bottom: 10px;
+}
+
+.getstartedpara{
+    margin-bottom: 1em;
+    font-size: 16px;
+}
+
+.h1 .h2 .h3 .h4 .h5 .h6{
+    font-family: "Ubuntu",sans-serif;
+  }
+  
+  .p {
+    font-family: "PT Sans",sans-serif;;
+  }
+.getstartedbtn{
+    display: inline-block;
+    height: 40px;
+    padding: 8px 42px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    background-color: #ee3425;
+    border-radius: 8px;
+    border: none;
+}
+
+.getstartedrightimage{
+    display: flex;
+    flex: 1 1;
+    justify-content: flex-end;
+}
+
+.getstartedimage{
+    width: 280px;
+    height: 360px;
+    display: block;
+    object-fit: contain;
+    animation-name: updown;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.getstartedsub{
+    display: flex;
+    align-items: center;
+    padding: 16px 100px!important;
+}
+
+.getstarted{
+    margin-bottom: 50px;
+}
+
+.leftsectiongetstarted{
+    flex: 1 1;
+}
+
+@media only screen and (max-width: 991px) {
+ .getstartedsub{
+    width: 100%!important;
+    flex-direction: column-reverse;
+ }
+ }

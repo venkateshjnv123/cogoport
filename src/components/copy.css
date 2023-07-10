@@ -1,0 +1,28 @@
+.copyMobContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    background-color: #ebbe00;
+  }
+  
+  .h1 .h2 .h3 .h4 .h5 .h6{
+    font-family: "Ubuntu",sans-serif;
+  }
+  
+  .p {
+    font-family: "PT Sans",sans-serif;;
+  }
+  .copyMobile {
+    display: none;
+  }
+  
+  @media (max-width: 767px) {
+    .copyMobile {
+      display: block !important;
+    }
+  }
+  
+  .copyMob1 {
+    display: flex;
+    height: max-content;
+  }
