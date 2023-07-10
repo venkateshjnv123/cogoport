@@ -13,7 +13,8 @@ import Homepage from './components/MainPage';
 import HowItWorks from './components/HowItWorks';
 import Industries from './components/Industries';
 import TrustedBy from './components/TrustedBy';
-
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -36,6 +37,21 @@ const router = createBrowserRouter([
     element : <TrustedBy/>
   }
 ]);
+
+const firebaseConfig = {
+  apiKey: "AIzaSyAevoliKX3OiXq4fPNovZhkNmgMDrkF-iU",
+  authDomain: "patnala1-8482d.firebaseapp.com",
+  databaseURL: "https://patnala1-8482d-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "patnala1-8482d",
+  storageBucket: "patnala1-8482d.appspot.com",
+  messagingSenderId: "870911648161",
+  appId: "1:870911648161:web:9f35de5f485e240fadebe0",
+  measurementId: "G-EQDVCJZCF5"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

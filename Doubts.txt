@@ -1,0 +1,7 @@
+My website is hosted in firebase - link is provided here - https://cogoport-webpage.web.app
+
+Difficulties i faced during the website development is;
+
+1) Video embedding in the website (video of cogoport training on a pause button click)
+2) whatsapp input bar in the first section
+3) extracting data from the website (like products, partners data in the footer)
