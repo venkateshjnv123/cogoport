@@ -33,7 +33,7 @@
     flex: 1 1;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
     .Mainpage1{
         width: 100%!important;
         height: 552px!important;
@@ -60,18 +60,31 @@
 
  }
 
+ .mainleftpara{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    color: #000;
+ }
+
  .h1 .h2 .h3 .h4 .h5 .h6{
     font-family: "Ubuntu",sans-serif;
   }
   
   .p {
-    font-family: "PT Sans",sans-serif;;
+    font-family: "PT Sans",sans-serif;
   }
   
  .Mainpage1{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    width: 1200px;
+    align-items: center;  
+  width: 100%;
     height:'392px',
  }
+
+.mainpagehead{
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: "Ubuntu",sans-serif;
+}

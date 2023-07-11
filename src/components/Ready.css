@@ -1,6 +1,7 @@
 .readymain{
     background: #fbdc00;
     margin-bottom: 50px;
+    min-width:"1200px";
 }
 
 .readysub{
@@ -11,7 +12,7 @@
     margin-left: auto;
     margin-right: auto;
     padding: 16px;
-    width: 1200px;
+  
 }
 
 .headingreadydiv{
@@ -40,11 +41,15 @@
 }
 
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 767px) {
    .readysub{
     width: 100%;
     flex-direction: column;
     align-items: start;
+   }
+
+   .readymain{
+    width: 100%!important;
    }
     }
 

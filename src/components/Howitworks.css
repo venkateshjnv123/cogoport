@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 50px;
-    width: 1200px;
+    min-width:"1200px";
 }
 .howitbtns{
     display: flex;
@@ -102,7 +102,7 @@
     font-family: "PT Sans",sans-serif;;
   }
   
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 767px) {
     .howitworks{
         width: 100%!important;
     }

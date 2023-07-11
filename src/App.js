@@ -16,9 +16,11 @@ import Newsletter from './components/newsletter';
 import Footermob from './components/footermob';
 import Ready from './components/Ready';
 import Count1 from './components/Copyright'
+import Whatsappbtn from './components/Whatsappbutton';
 function App() {
   return (
     <div className="App">
+      <Whatsappbtn/>
       <Notification/>
      <NavbarMain/>
      <Homepage/>

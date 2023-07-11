@@ -40,7 +40,8 @@
 }
 
 .foot1Text {
-  margin-bottom: 14px;
+  margin-bottom: 1px;
+  margin-top: 14px;
 }
 
 .foot1Text > h5 {
@@ -59,4 +60,11 @@
   .foot1Container {
     display: none;
   }
+}
+
+
+.footmaintext{
+  font-weight: 400;
+  color: #000;
+  text-decoration: none;
 }

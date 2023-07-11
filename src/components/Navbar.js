@@ -34,7 +34,7 @@ export default function NavbarMain(){
         <div role='button' className='logoimage'>
       <img src={logo} alt="cogoport logo"/>
       </div> 
-      <nav className="navbar navbar-expand-lg" id="navbarmainsub">
+      <nav className="navbar navbar-expand-md" id="navbarmainsub">
       <button
         className="navbar-toggler"
         type="button"

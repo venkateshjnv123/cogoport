@@ -5,12 +5,13 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import './Mainpage.css';
 export default function Homepage(){
     return(
-        <div className='Mainpage' style={{ backgroundColor : '#fddc01', backgroundImage:`url(https://cdn.cogoport.io/cms-prod/cogo_public/vault/original/home-banner-background-1.webp)`, backgroundRepeat : 'no-repeat', backgroundPosition:'bottom', backgroundSize:'100%', paddingTop:'57px', marginTop:'-57px', width:'100%'}}>
-<div className="Mainpage1" style={{marginLeft:'auto', marginRight :'auto', padding:'16px', width:'1200px'}}>
+        <div className='Mainpage' style={{ backgroundColor : '#fddc01', backgroundImage:`url(https://cdn.cogoport.io/cms-prod/cogo_public/vault/original/home-banner-background-1.webp)`, backgroundRepeat : 'no-repeat', backgroundPosition:'bottom', backgroundSize:'100%', paddingTop:'57px', marginTop:'-57px', minWidth:"1200px"}}>
+<div className="Mainpage1" style={{marginLeft:'auto', marginRight :'auto', padding:'16px'}}>
 <div className='mainpageleft'>
-<h1>Grow Faster, Go Global.</h1>
+<h1 className='mainpagehead'>Grow Faster, Go Global.</h1>
 <p>Strengthen your Supply Chain, and Scale your Business <br></br>with Reliable Shipping and Cashflows.</p>
 <div>
+    <p className='mainleftpara'>Talk to us now!</p>
 <InputGroup className='searchbox' >
     <InputGroup.Text className='searchbox1'>
     <WhatsAppIcon sx={{color:'#36bb22'}}/>

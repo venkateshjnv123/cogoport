@@ -66,15 +66,20 @@
 
 .getstarted{
     margin-bottom: 50px;
+    width: 1200px;
 }
 
 .leftsectiongetstarted{
     flex: 1 1;
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 767px) {
  .getstartedsub{
     width: 100%!important;
     flex-direction: column-reverse;
+ }
+
+ .getstarted{
+    width: 100%!important;
  }
  }

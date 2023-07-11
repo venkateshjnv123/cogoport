@@ -4,13 +4,15 @@
     cursor: pointer;
 }
 
+.Videocogo{
+    min-width:"1200px";
+}
+
 .imageaboutus{
     height: 450px;
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
     object-fit: cover;
     color: transparent;
+    width: 100%;
 }
 
 .h1 .h2 .h3 .h4 .h5 .h6{
@@ -84,15 +86,15 @@
 }
 
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 767px) {
     .moreoptionsub{
         flex-direction: column;
         justify-content: start;
         align-items: flex-start;
     }
 
-    .videocogosub{
-        width: 100%;
+    .Videocogo{
+        width: 100%!important;
     }
     }
 

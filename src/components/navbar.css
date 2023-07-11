@@ -6,11 +6,13 @@
     top: 0;
     left: 0;
     z-index: 9999;
-    width: 100%;
+    min-width: 1200px;
     transition: background-color 0.3s ease;
     padding: 8px 16px;
     color: #000;
-    font-weight: 500;   
+    font-weight: 500;
+    height: 56px;   
+
 }
 
 .narbarmain .scrolled{
@@ -94,7 +96,7 @@ background-color: #fff;
  left: 0px;
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 767px) {
    .loginbtnsdiv{
     display: none;
    }
@@ -110,10 +112,10 @@ background-color: #fff;
     width: 100%;
     background-color: #fbdc00;
     position: fixed;
-    top: 70px;
+    top: 56px;
     left: 0;
     bottom: 0;
-    z-index: 1;
+    z-index: 100;
     padding-top: 60px;
   }
   .sidebar .show-sidebar  {
@@ -130,7 +132,6 @@ background-color: #fff;
 
   .sidebarlist{
     padding: 16px;
-    overflow-y: scroll;
     border-bottom: 0.5px solid rgba(0,0,0,.4);
   }
 

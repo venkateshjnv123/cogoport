@@ -125,8 +125,8 @@
 @media (min-width: 1200px) {
   .purposeSub,
   .productSub {
-    margin-left: 8%;
-    margin-right: 8%;
+    margin-left: 4%;
+    margin-right: 4%;
   }
 }
 
@@ -178,6 +178,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  text-align: center;
   width: 174px;
   height: 170px;
   padding: 10px 7px;
