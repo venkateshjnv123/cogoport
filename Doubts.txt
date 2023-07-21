@@ -7,5 +7,6 @@ Difficulties i faced during the website development is;
 3) extracting data from the website (like products, partners data in the footer)
 4) changing nav bar color when scrolled.
 5) whatsapp button is coming after scrolling the homepage which i am not able to acheive.
+6) Unable to place arrow images in the How it works section.
 
 I used react but most of the code is plain html and css only, as you mentioned to do that.
