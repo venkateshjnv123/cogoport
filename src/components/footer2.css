@@ -11,14 +11,6 @@
   background-color: #ebbe00;
 }
 
-.h1 .h2 .h3 .h4 .h5 .h6{
-  font-family: "Ubuntu",sans-serif;
-}
-
-.p {
-  font-family: "PT Sans",sans-serif;;
-}
-
 .foot2Col {
   display: flex;
   flex-direction: column;

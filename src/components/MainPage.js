@@ -6,13 +6,14 @@ import './Mainpage.css';
 export default function Homepage(){
     return(
         <div className='Mainpage' style={{ backgroundColor : '#fddc01', backgroundImage:`url(https://cdn.cogoport.io/cms-prod/cogo_public/vault/original/home-banner-background-1.webp)`, backgroundRepeat : 'no-repeat', backgroundPosition:'bottom', backgroundSize:'100%', paddingTop:'57px', marginTop:'-57px', minWidth:"1200px"}}>
-<div className="Mainpage1" style={{marginLeft:'auto', marginRight :'auto', padding:'16px'}}>
+<div className="Mainpage1" style={{marginLeft:'20px', marginRight :'20px', padding:'16px'}}>
 <div className='mainpageleft'>
 <h1 className='mainpagehead'>Grow Faster, Go Global.</h1>
 <p>Strengthen your Supply Chain, and Scale your Business <br></br>with Reliable Shipping and Cashflows.</p>
 <div>
+    <form className='formtonumber'>
     <p className='mainleftpara'>Talk to us now!</p>
-<InputGroup className='searchbox' >
+{/* <InputGroup className='searchbox' >
     <InputGroup.Text className='searchbox1'>
     <WhatsAppIcon sx={{color:'#36bb22'}}/>
         <select name="Number" id="code"  className='selecttag'>
@@ -25,7 +26,25 @@ export default function Homepage(){
       <InputGroup.Text className='searchbox1'>
         <button className='searchboxbutton'>Get started</button >
         </InputGroup.Text>
-    </InputGroup>
+    </InputGroup> */}
+    <div className='inputgroup'>
+        <div className='leftinputgroup'>
+            <div className='selectgroup'>
+                <div className='selectgroup1'>
+                    <WhatsAppIcon sx={{color:'#36bb22'}}/>
+                    <select id="countryCode">
+        <option value="+91">+91</option>
+        <option value="+787">+787</option>
+        <option value="+65">+65</option>
+    </select>
+                </div>
+            </div>
+
+        </div>
+        <input className='rightinputgroup' placeholder='whatsapp number' type='number' name='mobile number'/>
+        <button className='getstart'>Get started</button>
+    </div>
+    </form>
 </div>
             </div>
        

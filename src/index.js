@@ -11,7 +11,6 @@ import NavbarMain from './components/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Homepage from './components/MainPage';
 import HowItWorks from './components/HowItWorks';
-import Industries from './components/Industries';
 import TrustedBy from './components/TrustedBy';
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
@@ -27,10 +26,6 @@ const router = createBrowserRouter([
   {
     path:'howitworks',
     element : <HowItWorks/>
-  },
-  {
-    path : 'industries',
-    element : <Industries/>
   },
   {
     path : 'trustedby',

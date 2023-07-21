@@ -67,13 +67,6 @@
     color: #000;
  }
 
- .h1 .h2 .h3 .h4 .h5 .h6{
-    font-family: "Ubuntu",sans-serif;
-  }
-  
-  .p {
-    font-family: "PT Sans",sans-serif;
-  }
   
  .Mainpage1{
     display: flex;
@@ -84,7 +77,90 @@
  }
 
 .mainpagehead{
-    font-size: 40px;
     line-height: 1.2;
-    font-family: "Ubuntu",sans-serif;
+}
+
+.inputgroup{
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.leftinputgroup{
+    display: block;
+    position: relative;
+        width: 110px;
+    min-width: 110px;
+}
+
+.selectgroup{
+    cursor: pointer;
+    display: flex;
+    overflow: hidden;
+    padding: 0;
+    height: 41px!important;
+    border: 1px solid #e0e0e0!important;
+    border-right: none!important;
+    border-radius: 20px!important;
+    border-top-right-radius: 0!important;
+    border-bottom-right-radius: 0!important;
+    outline: none!important;
+
+}
+
+.selectgroup1{
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    border: none;
+    cursor: pointer;
+    flex-grow: 0;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+    padding: 8px 12px;
+    width: 100%;
+}
+
+#countryCode{
+    border: none;
+    outline: none;
+}
+
+.rightinputgroup{
+        box-sizing: border-box;
+    width: 60%;
+    min-height: 41px!important;
+    padding-right: 100px!important;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-left: none!important;
+    border-radius: 20px!important;
+    border-top-left-radius: 0!important;
+    border-bottom-left-radius: 0!important;
+    outline: none!important;
+}
+
+.getstart{
+    position: absolute;
+    top: 7px;
+    right: 150px;
+    width: 90px;
+    padding: 2px 4px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    background: #36bb22;
+    border: 1px solid #36bb22;
+    border-radius: 12px;
+}
+
+.formtonumber{
+    display: flex;
+    flex-direction: column;
+
 }

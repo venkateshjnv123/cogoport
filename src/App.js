@@ -3,7 +3,6 @@ import './App.css';
 import NavbarMain from './components/Navbar';
 import Homepage from './components/MainPage';
 import HowItWorks from './components/HowItWorks';
-import Industries from './components/Industries';
 import TrustedBy from './components/TrustedBy';
 import Products from './components/products';
 import GetStarted from './components/Getstartedtoday';
@@ -33,7 +32,6 @@ function App() {
      <GetStarted/>
      <Videocogo/>
       <Blogs />
-   
       <Newsletter /> 
       <Footermob />
       <Count1/>

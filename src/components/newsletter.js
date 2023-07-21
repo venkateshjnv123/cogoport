@@ -145,7 +145,7 @@ array2 : ["Port info",
           </div>
         </div>
 
-        {/* FOoter1 starts */}
+        {/* Footer1 starts */}
         <div className="foot1Container">
           {
             data1.map((item)=>(
@@ -173,7 +173,7 @@ array2 : ["Port info",
         </div>
         {/* Footer1 ends */}
 
-        {/* Footer1 starts */}
+        {/* Footer2 starts */}
         <div className="foot2Container">
           <div className="foot2colContainer">
             <div className="foot2Col">

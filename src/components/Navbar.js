@@ -51,17 +51,17 @@ export default function NavbarMain(){
         sidebarshows ? 
         <div class="sidebar">
         <ul className='sidebarul'>
-          <li className='sidebarlist'><div role='button' className="side-link"> <h3>Products</h3>
+          <li className='sidebarlist'><div role='button' className="side-link"> <h3 className='headele'>Products</h3>
                 <ArrowRightIcon sx={{width:'1em', height:'1em'}}/> </div></li>
-          <li className='sidebarlist'><div role='button' className="side-link"> <h3>Partners</h3>
+          <li className='sidebarlist'><div role='button' className="side-link"> <h3 className='headele'>Partners</h3>
                 <ArrowRightIcon sx={{width:'1em', height:'1em'}}/></div></li>
-          <li className='sidebarlist'><div role='button' className="side-link"> <h3>Tools</h3>
+          <li className='sidebarlist'><div role='button' className="side-link"> <h3 className='headele'>Tools</h3>
                 <ArrowRightIcon sx={{width:'1em', height:'1em'}}/></div></li>
-          <li className='sidebarlist'><div role='button' className="side-link"> <h3>Knowledge Center</h3>
+          <li className='sidebarlist'><div role='button' className="side-link"> <h3 className='headele'>Knowledge Center</h3>
                 <ArrowRightIcon sx={{width:'1em', height:'1em'}}/></div></li>
-                <li className='sidebarlist'><div role='button' className="side-link"> <h3>Compnany</h3>
+                <li className='sidebarlist'><div role='button' className="side-link"> <h3 className='headele'>Compnany</h3>
                 <ArrowRightIcon sx={{width:'1em', height:'1em'}}/></div></li>
-                <li className='sidebarlist'><div role='button' className="side-link"> <h3>Contact Us</h3></div>
+                <li className='sidebarlist'><div role='button' className="side-link"> <h3 className='headele'>Contact Us</h3></div>
                </li>
           <div className='loginbtnsdiv1 sidebarlist' style={{borderBottom:'none'}}>
           <li className='signinbtn'>
@@ -83,27 +83,27 @@ export default function NavbarMain(){
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <div role='button' className="nav-link">Products
+            <div role='button' className="nav-link"> <span>Products</span>
             <ArrowDropDownIcon sx={{width:'1em', height:'1em'}}/> </div>
           </li> 
           <li className="nav-item">
-          <div role='button' className="nav-link">Partners
+          <div role='button' className="nav-link"> <span>Partners</span>
             <ArrowDropDownIcon sx={{width:'1em', height:'1em'}}/> </div>
           </li>
           <li className="nav-item">
-          <div role='button' className="nav-link">Tools
+          <div role='button' className="nav-link"><span>Tools</span>
             <ArrowDropDownIcon sx={{width:'1em', height:'1em'}}/> </div>
           </li>
           <li className="nav-item">
-          <div role='button' className="nav-link">Knowledge Center
+          <div role='button' className="nav-link"><span>Knowledge Center</span>
             <ArrowDropDownIcon sx={{width:'1em', height:'1em'}}/> </div>
           </li>
           <li className="nav-item">
-          <div role='button' className="nav-link">Compnany
+          <div role='button' className="nav-link"><span>Company</span>
             <ArrowDropDownIcon sx={{width:'1em', height:'1em'}}/> </div>
           </li>
           <li className='nav-item'>
-          <div role='button' className="nav-link">Contact Us
+          <div role='button' className="nav-link"><span>Contact Us</span>
              </div>
           </li>
         </ul>

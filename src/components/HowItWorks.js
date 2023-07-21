@@ -16,13 +16,13 @@ export default function HowItWorks(){
         {name : 'Stage 1:',
          heading : 'Discover', 
         image : stage1,
-        points : ['Spot and Contract Rates for Logistics', 'Service details, Trade Compliance/ Regulatory Requirements', 'Knowledge and Insights on Trade, Logistics, Finance, Supply Chains']},
+        points : ['Spot and Contract Rates for Logistics', 'Service details, Trade Compliance/ Regulatory Requirements', 'Knowledge and Insights on Trade, Logistics, Finance, Supply Chains'],
+    },
         {
             name : 'Stage 2:',
          heading : 'Plan & Book', 
         image : stage2,
-        points : ['Route, Service Schedules, Inventory, and Cashflow planning', 'Book with upfront visibility of service terms and inclusions']
-
+        points : ['Route, Service Schedules, Inventory, and Cashflow planning', 'Book with upfront visibility of service terms and inclusions'],
         }
     ]
     
@@ -114,6 +114,7 @@ export default function HowItWorks(){
                               </div>
                             </Card.Body>
                           </Card>
+                        
                         ))
                     }
                 </div>
